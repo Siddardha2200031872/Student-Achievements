@@ -1,0 +1,49 @@
+.achievements-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto; /* Center the container */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
+}
+
+.id-input {
+  width: 100%; /* Full width for input */
+  padding: 10px;
+  margin-bottom: 10px; /* Space between input and button */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.view-button {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px; /* Space above error message */
+}
+
+.achievements-results {
+  margin-top: 20px; /* Space above results */
+}
+
+.achievement-item {
+  background-color: #f8f9fa; /* Light background for achievement items */
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px; /* Space between achievement items */
+}

@@ -1,0 +1,64 @@
+.events-container {
+  padding: 20px;
+}
+
+.event-card {
+  display: flex;
+  align-items: center;
+  border: 2px solid white; /* Change border color to white */
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa; /* Optional: Add a background color for contrast */
+}
+
+.event-image {
+  width: 150px; /* Size of event image */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.event-description {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.registration-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+}
+
+.register-button,
+.cancel-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button {
+  background-color: green;
+  color: white;
+}
+
+.cancel-button {
+  background-color: red;
+  color: white;
+  margin-top: 10px; /* Space between registered image and button */
+}
+
+.register-button:hover {
+  background-color: darkgreen;
+}
+
+.cancel-button:hover {
+  background-color: darkred;
+}
+
+.registered-image {
+  width: 150px; /* Match registered image size with event image size */
+  height: 150px; /* Keep it consistent */
+  margin-bottom: 10px; /* Space below the image */
+}

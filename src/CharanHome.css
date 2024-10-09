@@ -1,0 +1,80 @@
+/* Main container for the page */
+.charanhome-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Sidebar container */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align blocks from the top */
+  align-items: center;
+  width: 3cm; /* Set width to 3cm */
+  background-color: #1e2a44; /* Dark blue background */
+  padding: 5px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+}
+
+/* Profile section with image and name */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Space below the image section */
+}
+
+.profile-section img {
+  width: 50px; /* Smaller image size */
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px; /* Space between image and name */
+}
+
+.profile-section .profile-name {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold; /* Slightly bold name text */
+}
+
+/* Blocks for links in the sidebar */
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent; /* Transparent background */
+  color: white;
+  text-decoration: none;
+  width: 100%; /* Adjust width to fit inside the column */
+  height: 60px; /* Adjusted height to fit image and name */
+  margin-bottom: 10px; /* Space between blocks */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 12px; /* Reduced font size */
+}
+
+.block:hover {
+  background-color: #007bff; /* Light blue hover effect */
+}
+
+/* Image inside each block */
+.block img {
+  width: 25px; /* Image size */
+  height: 25px;
+  margin-bottom: 5px; /* Space between image and text */
+}
+
+/* Text under the image */
+.block .block-text {
+  text-align: center;
+  font-size: 10px; /* Reduced text size */
+  color: white;
+}
+
+/* Highlight for active page (as shown in the image) */
+.block.active {
+  background-color: #007bff; /* Active block background color */
+  font-weight: bold;
+}

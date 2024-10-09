@@ -1,0 +1,63 @@
+/* src/components/StudentDetails.css */
+.student-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #ADD8E6;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.student-info {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.student-info p {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.student-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.student-id-input {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.get-details-button, .achievements-button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.get-details-button:hover, .achievements-button:hover {
+  background-color: #21a1f1;
+}

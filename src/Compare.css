@@ -1,0 +1,93 @@
+.compare-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align blocks from the top */
+    align-items: center;
+    width: 15%; /* Adjust as needed for column width */
+    padding: 10px;
+  }
+  
+  .block {
+    background-color: #007bff; /* Block color */
+    color: white;
+    width: 100%; /* Set block width */
+    height: 50px; /* Set block height */
+    margin-bottom: 10px; /* Space between blocks */
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .right-column {
+    flex-grow: 1; /* Allow this column to take the remaining space */
+    padding: 20px;
+    display: flex; /* Enable flexbox layout for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column; /* Vertical layout for input boxes */
+    align-items: center; /* Center align items */
+    width: 100%; /* Ensure full width for alignment */
+  }
+  
+  .input-box {
+    width: 30%; /* Width of input boxes */
+    margin-bottom: 10px; /* Space between input boxes */
+  }
+  
+  .id-input {
+    width: 100%; /* Full width minus padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .compare-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  .compare-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .comparison-results {
+    margin-top: 20px;
+  }
+  
+  .results {
+    display: flex; /* Horizontal layout for comparison results */
+    justify-content: space-between; /* Space between results */
+    margin-top: 10px; /* Space above the results */
+    width: 100%; /* Full width */
+  }
+  
+  .result-item {
+    background-color: #f8f9fa; /* Light background for results */
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 0 10px; /* Space between result items */
+    flex: 1; /* Allow items to grow equally */
+  }
+  
